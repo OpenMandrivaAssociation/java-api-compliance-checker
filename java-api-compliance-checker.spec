@@ -1,11 +1,11 @@
 Summary:	API compatibility checker for Java libraries
 Name:		java-api-compliance-checker
-Version:	1.0.3
-Release:	%mkrel 1
+Version:	1.1
+Release:	1
 Group:		Development/Other
 License:	GPLv1+ or LGPLv2+
-URL:		http://forge.ispras.ru/projects/java-api-compliance-checker
-Source0:	http://forge.ispras.ru/attachments/download/1279/japi-compliance-checker-%{version}.tar.gz
+URL:		http://ispras.linuxbase.org/index.php/Java_API_Compliance_Checker
+Source0:	https://github.com/lvc/japi-compliance-checker/downloads/japi-compliance-checker-%{version}.tar.gz
 Requires:	java-openjdk
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -26,7 +26,7 @@ clients to run or to be recompiled with newer library versions.
 %prep
 
 %setup -q -n japi-compliance-checker-%{version}
-chmod -x LICENSE.txt
+chmod 0644 LICENSE README
 
 %build
 # Nothing to build.
@@ -41,5 +41,5 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc LICENSE.txt doc/
+%doc LICENSE README doc/
 %{_bindir}/japi-compliance-checker
