@@ -1,6 +1,6 @@
 Summary:	API compatibility checker for Java libraries
 Name:		java-api-compliance-checker
-Version:	1.1.1
+Version:	1.1.2
 Release:	1
 Group:		Development/Other
 License:	GPLv1+ or LGPLv2+
