@@ -43,3 +43,23 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %doc LICENSE README doc/
 %{_bindir}/japi-compliance-checker
+
+
+%changelog
+* Mon Jun 25 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.1.2-1
++ Revision: 806772
+- Updated to 1.1.2
+
+* Tue May 22 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.1.1-1
++ Revision: 799978
+- Updated to 1.1.1
+
+* Mon Apr 16 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.1-1
++ Revision: 791356
+- Updated to 1.1
+
+* Tue Dec 13 2011 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.0.3-1
++ Revision: 740696
+- Initial Mandriva package
+- Created package structure for java-api-compliance-checker.
+
