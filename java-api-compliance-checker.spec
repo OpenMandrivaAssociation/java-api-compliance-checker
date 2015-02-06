@@ -1,7 +1,7 @@
 Summary:	API compatibility checker for Java libraries
 Name:		java-api-compliance-checker
 Version:	1.1.2
-Release:	1
+Release:	2
 Group:		Development/Other
 License:	GPLv1+ or LGPLv2+
 URL:		http://ispras.linuxbase.org/index.php/Java_API_Compliance_Checker
