@@ -4,7 +4,7 @@ Version:	1.1.2
 Release:	2
 Group:		Development/Other
 License:	GPLv1+ or LGPLv2+
-URL:		http://ispras.linuxbase.org/index.php/Java_API_Compliance_Checker
+URL:		https://ispras.linuxbase.org/index.php/Java_API_Compliance_Checker
 Source0:	https://github.com/lvc/japi-compliance-checker/downloads/japi-compliance-checker-%{version}.tar.gz
 Requires:	java-openjdk
 BuildArch:	noarch
